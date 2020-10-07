@@ -30,7 +30,7 @@
                 <option value="white">Blanco</option>
                 <option value="yellow">Amarillo</option>
               </select>
-              <div class="circle" :style="{ 'background-color': color, fontSize:'13px' }">Esto funciona</div>
+              <div class="circle" :style="{'background-color': color}"></div>
             </div>
             <input v-model.number="size" type="number" name="" id="" />
           </div>
